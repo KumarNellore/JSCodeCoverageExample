@@ -11,7 +11,7 @@ Prerequisite
 Running Code Coverage for Application without instrumenting application code
 
 1. Navigate to directory where jscoverage-server.exe or jscoverage-server.c file is placed.
-2. Type command jscoverage-server.exe --document-root=<Root directory of javascript application> --ip-address=127.0.0.1 --port=3456 --verbose
+2. Type command jscoverage-server.exe --document-root="Root directory of javascript application" --ip-address=127.0.0.1 --port=3456 --verbose
    [This will start code coverage of your application in server mode, We can access code coverage application in browser by opening url :"http://127.0.0.1:3456/jscoverage.html"]
 3. Now Start your javascript application Example case : node app\expressserver.js [Testing Example]
 4. Now in URL "http://127.0.0.1:3456/jscoverage.html" enter application running url[Please replace localhost with 127.0.0.1]
