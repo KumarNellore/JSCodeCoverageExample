@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JavaScript Code Coverage Suite File">
+   <test name="Demo Example for Code Coverage"> 
+     <parameter name="browser" value="chrome"/>   
+    <classes>
+      <class name="com.demo.examples.CodeCoverageExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
