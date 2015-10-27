@@ -17,7 +17,7 @@ import com.demo.mainpage.Calculator;
 //@Listeners({ com.demo.listener.EventHandler.class }) [If enabled we can debug listener]
 public class CodeCoverageExample extends SeleniumTestBase{
 
-	String appUrl = "http://127.0.0.1:3456/app/index.html";
+	String appUrl = "http://127.0.0.1:3456/index.html";
 	
 	@Test
 	public void demoClass() throws InterruptedException {
