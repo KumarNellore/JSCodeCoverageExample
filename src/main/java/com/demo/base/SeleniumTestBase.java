@@ -1,7 +1,6 @@
 package com.demo.base;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.util.Arrays;
 
 import org.openqa.selenium.WebDriver;
@@ -25,12 +24,7 @@ public class SeleniumTestBase {
 	protected static ThreadLocal<WebDriver> threadDriver = null;
 
 	ProcessBuilder builder = null;
-	String sourcePath = "D:/protractordemo/protractor-demo/app";
-	String destinationPath = "D:/protractordemo/protractor-demo/instrument";
-	String appInstrumentJsPath = "D:/protractordemo/protractor-demo/instrument/expressserver.js";
-	String appJsPath = "D:/protractordemo/protractor-demo/app/expressserver.js";
-	URL resource = ProcessBuildDemo.class.getClass().getResource("/");
-
+	
 	@BeforeTest
 	public void setUp(ITestContext aTestContext) throws MalformedURLException {
 
